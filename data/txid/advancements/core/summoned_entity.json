@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "": {
+      "trigger": "summoned_entity"
+    }
+  },
+  "rewards": {
+    "function": "txid:core/event/summoned_entity/on"
+  }
+}

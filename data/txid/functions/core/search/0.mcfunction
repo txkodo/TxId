@@ -1,0 +1,2 @@
+execute if data storage txid bits{0:1b} if entity @s[tag=txid.0t] run scoreboard players operation $id txidCalc = @s txid
+execute if data storage txid bits{0:0b} if entity @s[tag=txid.0f] run scoreboard players operation $id txidCalc = @s txid

@@ -1,0 +1,1 @@
+execute unless data storage txid {version:"1"} run function txid:core/init
